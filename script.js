@@ -7,22 +7,34 @@ const cor4add = document.getElementsByClassName('cor4')[0];
 cor1add.addEventListener('click', adiCor1)
 function adiCor1() {
   addCor = 'cor1';
-  console.log(addCor);
+  cor1add.className = "color cor1 selected"
+  cor2add.className = "color cor2"
+  cor3add.className = "color cor3"
+  cor4add.className = "color cor4"
 }
 cor2add.addEventListener('click', adiCor2)
 function adiCor2() {
   addCor = 'cor2';
-  console.log(addCor);
+  cor2add.className = " color cor2 selected"
+  cor1add.className = "color cor1"
+  cor3add.className = "color cor3"
+  cor4add.className = "color cor4"
 }
 cor3add.addEventListener('click', adiCor3)
 function adiCor3() {
   addCor = 'cor3';
-  console.log(addCor);
+  cor3add.className = "color cor3 selected"
+  cor2add.className = "color cor2"
+  cor1add.className = "color cor1"
+  cor4add.className = "color cor4"
 }
 cor4add.addEventListener('click', adiCor4)
 function adiCor4() {
   addCor = 'cor4';
-  console.log(addCor);
+  cor4add.className = "color cor4 selected"
+  cor2add.className = "color cor2"
+  cor3add.className = "color cor3"
+  cor1add.className = "color cor1"
 }
 
 

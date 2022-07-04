@@ -44,3 +44,11 @@ for (let i = 0; i < quadradinhos.length; i += 1) {
     event.target.className = "pixel " + addCor;
   });
 }
+
+const limpar = document.getElementById('clear-board');
+limpar.addEventListener('click', limpaA);
+function limpaA() {
+  for (let i = 0; i < quadradinhos.length; i += 1) {
+    quadradinhos[i].className = "pixel";
+  }
+}

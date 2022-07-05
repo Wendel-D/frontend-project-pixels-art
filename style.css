@@ -6,6 +6,11 @@
   gap: 10px;
 }
 
+#pixel-board {
+  align-items: center;
+  width: 250px;
+}
+
 .pixel {
   border: 1px solid;
   margin: 0 2px;
@@ -29,9 +34,4 @@
 
 .cor4 {
   background-color: pink;
-}
-
-#pixel-board {
-  align-items: center;
-  width: 250px;
 }
